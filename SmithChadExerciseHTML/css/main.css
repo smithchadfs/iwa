@@ -1,0 +1,105 @@
+/* General box style */
+* {
+  box-sizing: border-box;
+}
+/* General body style */
+body {
+  background-color: black;
+}
+
+/* General section style */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid gold;
+  border-radius: 10px;
+  max-width: 800px;
+  background-color: navy;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#image {
+  margin: 0 auto;
+  display: block;
+}
+/* General h1 style */
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  color: navy;
+  background-color: gold;
+  text-align: center;
+  line-height: 1.2em;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/* General h2 style */
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.25rem;
+  color: gold;
+  text-align: center;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/* General h3 style */
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+  color: gold;
+  text-align: center;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/* Genral paragraph style */
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.5em;
+}
+/* General unorder list style */
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.4em;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+/* General ordered list style */
+ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.4em;
+  list-style-type: square;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 1rem;
+}
+/* General link style */
+a {
+  color: gold;
+  text-decoration: none;
+}
+/* General link hover style */
+a:hover {
+  background-color: gold;
+  color: navy;
+  text-decoration: underline;
+}
